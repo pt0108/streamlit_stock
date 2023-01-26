@@ -58,10 +58,9 @@ pandas==1.5.3
 parso 
 pickleshare 
 Pillow==9.4.0
-pip==22.3.1
 platformdirs 
 plotly==5.13.0
-prompt-toolkit
+prompt-toolkit 
 protobuf==3.20.3
 psutil 
 pure-eval 
