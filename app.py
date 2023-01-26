@@ -58,6 +58,8 @@ if(button==True) :
     df = ticker_data.history(start=start_p, end=end_p)
     df.index = df.index.date
 
+    st.balloons()
+    
     st.subheader(f"[{stock_name}] 주가 데이터")
     st.dataframe(df.head())
 
